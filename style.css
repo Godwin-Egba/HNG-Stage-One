@@ -27,18 +27,28 @@ body{
     margin-top: 10px;
     border-radius: 30px;
 }
-.title p, .slackname p, .time p, .UTC p, .myTrack p{
-    color:maroon;
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
-}
 
-.GitUrl a{
-    text-decoration: none;
-    font-weight: 600;
-    color: maroon;
-}
+@media (max-width:768px) {
 
+    .container{
+        background-color:white;
+        padding: 2rem 5rem;
+           border-radius: 30px;
+            box-shadow: 3px 5px 15px gray;
+            height: 100vh;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color:aliceblue;
+        margin-top: 0rem;
+       
+     
+    }
+    
+}
 
 
 
