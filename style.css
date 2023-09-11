@@ -33,6 +33,12 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.GitUrl a{
+    text-decoration: none;
+    font-weight: 600;
+    color: maroon;
+}
+
 
 
 
