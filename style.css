@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    background-color:white;
+    padding: 2rem 5rem;
+       border-radius: 30px;
+        box-shadow: 3px 5px 15px gray;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:aliceblue;
+    margin-top: 3rem;
+ 
+}
+.images img{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.title p, .slackname p, .time p, .UTC p, .myTrack p{
+    color:maroon;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
