@@ -33,9 +33,7 @@ console.log(utcMilliseconds);
 
 setInterval(primeTime, 1000)
 
-// DISPLAYING MY TRACK
 
-track.innerHTML = '<i>FrontEnd</i>'
 
 
 
